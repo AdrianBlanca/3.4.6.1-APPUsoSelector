@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import componentes_blancaadrian.SelectorDeslizamiento?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="115.0" layoutY="14.0" style="-fx-text-fill: red; -fx-font-size: 20;" text="Selectores" />
+      <SelectorDeslizamiento fx:id="selectorArriba" layoutX="85.0" layoutY="52.0" />
+      <SelectorDeslizamiento fx:id="selectorAbajo" layoutX="86.0" layoutY="94.0" />
+      <Label fx:id="mensaje" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="144.0" prefHeight="17.0" prefWidth="150.0" style="-fx-text-fill: green;" />
+   </children>
+</AnchorPane>
